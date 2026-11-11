@@ -20,7 +20,7 @@
     {
       chip: "🕒 Horarios",
       keys: ["horario", "hora", "abren", "abierto", "cierran", "atienden", "sabado", "domingo", "feriado"],
-      a: "Los horarios de atención pueden variar según la temporada. Escribinos por WhatsApp y te confirmamos el horario del día o te agendamos un turno.",
+      a: "Nuestro showroom en Salta 95 atiende:\n• Lunes a viernes: 9 a 17 h\n• Sábados: 9 a 13 h\n• Domingos: cerrado\nTambién podés llamarnos al 0299 326-8860. Si querés, te agendamos una visita por WhatsApp.",
       wa: "Hola! ¿Cuál es el horario de atención del showroom?"
     },
     {
@@ -50,7 +50,7 @@
     {
       chip: "🔧 Instalación",
       keys: ["instalacion", "instalan", "montaje", "colocacion", "armado", "garantia", "posventa", "service"],
-      a: "Nos ocupamos de la instalación con personal capacitado y te acompañamos en la posventa. Los detalles de garantía dependen de cada componente: un asesor te los explica según tu proyecto.",
+      a: "Brindamos un servicio integral de instalación y te acompañamos en la posventa. Los detalles de garantía dependen de cada componente: un asesor te los explica según tu proyecto.",
       wa: "Hola! Quiero consultar sobre instalación y garantía."
     },
     {
@@ -61,8 +61,8 @@
     },
     {
       chip: "🍳 Modelos",
-      keys: ["modelo", "modelos", "brera", "clover", "immagina", "round", "coleccion", "estilo", "catalogo", "linea"],
-      a: "Tenemos la colección moderna de Cucine LUBE: BRERA (madera natural), CLOVER, IMMAGINA (sin tiradores), ROUND y acabados lacados como SHADE LAB, entre otros. En el showroom podés verlos y tocarlos.\n¿Querés que te mandemos el catálogo?",
+      keys: ["modelo", "modelos", "brera", "clover", "immagina", "round", "nexa", "materia", "flavour", "tablet", "creo", "coleccion", "estilo", "catalogo", "linea"],
+      a: "Trabajamos cocinas italianas de alta gama de Cucine LUBE: NEXA (puertas en FENIX), BRERA (madera natural), MATERIA, IMMAGINA, FLAVOUR (línea clásica), CLOVER y ROUND, además de la cocina Tablet de CREO Kitchens (Grupo LUBE). En el showroom podés verlas y tocarlas.\n¿Querés que te mandemos el catálogo?",
       wa: "Hola! ¿Me pueden enviar el catálogo de modelos de Cucine LUBE?"
     },
     {
@@ -84,10 +84,10 @@
       wa: "Hola! Quiero consultar formas de pago y financiación."
     },
     {
-      chip: "🛋️ Living y mesas",
-      keys: ["living", "mesa", "mesas", "silla", "sillas", "placard", "vestidor", "mueble", "muebles", "bano"],
-      a: "Además de cocinas, LUBE ofrece soluciones de living, mesas y sillas para completar tus ambientes con el mismo estilo italiano. Consultanos qué necesitás.",
-      wa: "Hola! Quiero consultar por living, mesas y sillas LUBE."
+      chip: "🛋️ Vestidores y living",
+      keys: ["living", "mesa", "mesas", "silla", "sillas", "placard", "placares", "vestidor", "vestidores", "mueble", "muebles", "bano"],
+      a: "Además de cocinas, como store oficial de Grupo LUBE ofrecemos vestidores y placares a medida, y soluciones de living, mesas y sillas con el mismo estilo italiano. Consultanos qué necesitás.",
+      wa: "Hola! Quiero consultar por vestidores, placares o living LUBE."
     }
   ];
 
