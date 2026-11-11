@@ -98,6 +98,38 @@ h3{font-size:1.15rem;text-transform:uppercase;letter-spacing:.12em}
 .facts a{border-bottom:1px solid currentColor}
 .footer__brand small a{color:inherit}
 
+/* Patagonia */
+.pata{background:#f4efe6;padding:90px 0 0;overflow:hidden}
+.pata__head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:24px}
+.pata__head p:not(.eyebrow){color:var(--ink-2);font-size:1.05rem;margin-bottom:22px}
+.pata__meta{list-style:none;display:flex;gap:40px;flex-wrap:wrap;border-top:1px solid #d9cfbf;padding-top:16px}
+.pata__meta li{font-size:.95rem;font-weight:400}
+.pata__meta span{display:block;font-size:.65rem;letter-spacing:.22em;text-transform:uppercase;color:#9a8c78;margin-bottom:2px}
+.pata__scape{display:block;width:100%;height:clamp(200px,22vw,330px)}
+.pata__andes{fill:#e3dccf}
+.pata__snow{fill:#fff}
+.pata__barda{fill:#cdb79a}
+.pata__strata{stroke:rgba(80,50,20,.12);stroke-width:1.2;fill:none}
+.pata__floor{fill:#ebe3d4}
+.pata__alamos ellipse{fill:#6f7a58}
+.pata__alamos line{stroke:#5a4a3a;stroke-width:1.2}
+.pata__river{fill:none;stroke:#9db4bd;stroke-width:7;stroke-linecap:round}
+.pata__pin circle{fill:var(--red)}
+.pata__pulse{transform-origin:560px 246px;transform-box:view-box;animation:pulse 2.2s ease-out infinite}
+@keyframes pulse{from{transform:scale(1);opacity:.6}to{transform:scale(4);opacity:0}}
+.pata__labels text{font-family:Roboto,Arial,sans-serif;font-size:11px;letter-spacing:.25em;fill:#8a7d6a}
+.pata__labels path{stroke:#a39580;fill:none;stroke-width:1}
+.pata__labels .pata__city{fill:var(--red);font-weight:700;font-size:12px}
+.pata__labels .pata__lanin-sm{display:none}
+@media (max-width:860px){
+  .pata{padding-top:70px}
+  .pata__head{grid-template-columns:1fr;gap:12px}
+  .pata__labels text{font-size:16px}
+  .pata__labels .pata__city{font-size:17px}
+  .pata__lanin{display:none}
+  .pata__labels .pata__lanin-sm{display:inline}
+}
+
 /* Section head */
 .section-head{margin-bottom:48px;max-width:720px}
 .section-head p:not(.eyebrow){color:var(--ink-2);margin-top:14px}

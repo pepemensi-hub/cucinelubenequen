@@ -74,4 +74,21 @@
   });
 
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // ---- Álamos del Alto Valle (cortinas de álamos en las chacras) ----
+  const alamos = document.getElementById("alamos");
+  if (alamos) {
+    let svg = "";
+    const row = (from, to, step, base) => {
+      for (let x = from; x <= to; x += step) {
+        const h = 24 + ((x * 7) % 9); // alturas levemente distintas
+        svg += `<line x1="${x}" y1="${base}" x2="${x}" y2="${base - 6}"/>` +
+               `<ellipse cx="${x}" cy="${base - 6 - h}" rx="5" ry="${h}"/>`;
+      }
+    };
+    row(140, 420, 17, 240);
+    row(1080, 1150, 17, 238);
+    row(1210, 1400, 19, 236);
+    alamos.innerHTML = svg;
+  }
 })();
