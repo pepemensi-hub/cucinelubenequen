@@ -1,0 +1,9 @@
+{
+  "name": "cucinelube-neuquen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web del showroom oficial Cucine LUBE Neuquén",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cucine LUBE Neuquén | Showroom Oficial</title>
+  <meta name="description" content="Showroom oficial de Cucine LUBE en Neuquén. Cocinas italianas de diseño, fabricadas en Italia. Salta 95, Neuquén, Patagonia.">
+  <meta property="og:title" content="Cucine LUBE Neuquén | Showroom Oficial">
+  <meta property="og:description" content="El lujo italiano llegó a la Patagonia. Arquitectura de cocinas de clase mundial.">
+  <meta property="og:image" content="img/16477_brera.jpg">
+  <link rel="icon" href="img/logo-lube.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#inicio" class="brand" aria-label="Cucine LUBE Neuquén - inicio">
+      <img src="img/logo-lube.png" alt="Cucine LUBE" width="44" height="44">
+      <span class="brand__city">Neuquén</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#cocinas">Cocinas</a>
+      <a href="#showroom">Showroom</a>
+      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#guia">Guía de compra</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--small btn--red js-wa" data-msg="Hola! Quiero agendar una visita al showroom de Cucine LUBE Neuquén." href="#">Agendar visita</a>
+      <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__slides">
+      <div class="hero__slide is-active" style="background-image:url('img/16477_brera.jpg')" data-name="BRERA"></div>
+      <div class="hero__slide" style="background-image:url('img/11977_cucine-lube-clover.jpg')" data-name="CLOVER"></div>
+      <div class="hero__slide" style="background-image:url('img/11976_cucine-lube-immagina.jpg')" data-name="IMMAGINA"></div>
+      <div class="hero__slide" style="background-image:url('img/11975_cucine-lube-round.jpg')" data-name="ROUND"></div>
+    </div>
+    <div class="hero__shade"></div>
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light">Showroom oficial · Patagonia</p>
+      <h1>El lujo italiano<br>llegó a la Patagonia</h1>
+      <p class="hero__lead">Arquitectura de cocinas de clase mundial, diseñada y fabricada en Italia. Primer showroom oficial de Cucine LUBE en Argentina.</p>
+      <div class="hero__cta">
+        <a href="#cocinas" class="btn btn--light">Ver cocinas</a>
+        <a href="#" class="btn btn--ghost js-wa" data-msg="Hola! Quiero pedir un proyecto de cocina a medida.">Pedir proyecto</a>
+      </div>
+    </div>
+    <div class="hero__dots" role="tablist" aria-label="Modelos destacados"></div>
+    <span class="hero__model" id="heroModel">BRERA</span>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro container">
+    <p class="eyebrow">Made in Italy desde 1967</p>
+    <h2 class="intro__title">Cocinas pensadas para vivir.<br>Fabricadas en Treia, Italia. Proyectadas en Neuquén.</h2>
+    <div class="intro__stats">
+      <div><strong>+55</strong><span>años de historia</span></div>
+      <div><strong>100%</strong><span>fabricación italiana</span></div>
+      <div><strong>1°</strong><span>showroom oficial en Argentina</span></div>
+    </div>
+  </section>
+
+  <!-- PLANO CENITAL -->
+  <section class="planner" id="planner" aria-labelledby="plannerTitle">
+    <div class="container section-head">
+      <p class="eyebrow">Diseñá tu cocina</p>
+      <h2 id="plannerTitle">Del plano a tu casa</h2>
+      <p>Así proyectamos cada cocina LUBE: en planta, módulo por módulo, con modelos, terminaciones y equipamiento reales. Probá combinaciones y envianos tu diseño.</p>
+    </div>
+    <div class="container planner__grid">
+      <div class="planner__board">
+        <div class="planner__sheetbar">
+          <span>Proyecto · Casa en Neuquén</span>
+          <span>Planta cocina · Esc. 1:50</span>
+          <button type="button" class="planner__replay" aria-label="Volver a dibujar el plano">↻ Redibujar</button>
+        </div>
+        <svg class="planner__svg" viewBox="0 0 1000 720" role="img" aria-label="Plano en vista cenital de una cocina LUBE con columnas, bacha, lavavajillas, isla con anafe y mesa con sillas"></svg>
+        <ol class="planner__legend" aria-label="Composición del proyecto"></ol>
+      </div>
+      <aside class="planner__panel" aria-label="Configurador">
+        <div class="ctl">
+          <h3>Modelo</h3>
+          <div class="ctl__row" data-ctl="model"></div>
+          <p class="planner__note"></p>
+        </div>
+        <div class="ctl">
+          <h3>Frentes</h3>
+          <div class="ctl__row ctl__row--swatches" data-ctl="front"></div>
+        </div>
+        <div class="ctl">
+          <h3>Encimera</h3>
+          <div class="ctl__row" data-ctl="top"></div>
+        </div>
+        <div class="ctl">
+          <h3>Distribución</h3>
+          <div class="ctl__row" data-ctl="layout"></div>
+        </div>
+        <div class="planner__summary"></div>
+        <button type="button" class="btn btn--red btn--full planner__send">Enviar mi diseño por WhatsApp</button>
+        <p class="planner__disclaimer">Plano ilustrativo. Cada proyecto se diseña a medida en el showroom.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- COCINAS -->
+  <section class="kitchens" id="cocinas">
+    <div class="container section-head">
+      <p class="eyebrow">Colección</p>
+      <h2>Cocinas</h2>
+      <p>Desde la calidez de la madera natural hasta los lacados más refinados. Cada modelo se configura a medida de tu espacio.</p>
+    </div>
+    <div class="kitchens__grid">
+      <article class="kcard kcard--wide">
+        <img src="img/16477_brera.jpg" alt="Cocina LUBE Brera" loading="lazy">
+        <div class="kcard__body">
+          <h3>BRERA</h3>
+          <p>Enchapados de madera natural y líneas arquitectónicas.</p>
+          <a href="#" class="link js-wa" data-msg="Hola! Me interesa la cocina BRERA. ¿Me pasan más información?">Consultar →</a>
+        </div>
+      </article>
+      <article class="kcard">
+        <img src="img/11977_cucine-lube-clover.jpg" alt="Cocina LUBE Clover" loading="lazy">
+        <div class="kcard__body">
+          <h3>CLOVER</h3>
+          <p>Diseño contemporáneo con infinitas combinaciones.</p>
+          <a href="#" class="link js-wa" data-msg="Hola! Me interesa la cocina CLOVER. ¿Me pasan más información?">Consultar →</a>
+        </div>
+      </article>
+      <article class="kcard">
+        <img src="img/11976_cucine-lube-immagina.jpg" alt="Cocina LUBE Immagina" loading="lazy">
+        <div class="kcard__body">
+          <h3>IMMAGINA</h3>
+          <p>Elegancia esencial, sin tiradores, con apertura gola.</p>
+          <a href="#" class="link js-wa" data-msg="Hola! Me interesa la cocina IMMAGINA. ¿Me pasan más información?">Consultar →</a>
+        </div>
+      </article>
+      <article class="kcard kcard--wide">
+        <img src="img/11975_cucine-lube-round.jpg" alt="Cocina LUBE Round" loading="lazy">
+        <div class="kcard__body">
+          <h3>ROUND</h3>
+          <p>Formas suaves y redondeadas para ambientes acogedores.</p>
+          <a href="#" class="link js-wa" data-msg="Hola! Me interesa la cocina ROUND. ¿Me pasan más información?">Consultar →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SHOWROOM -->
+  <section class="showroom" id="showroom">
+    <div class="showroom__media">
+      <img src="img/agnese.jpg" alt="Ambiente de cocina LUBE" loading="lazy">
+    </div>
+    <div class="showroom__text">
+      <p class="eyebrow">Showroom oficial</p>
+      <h2>Vení a vivir<br>el diseño italiano</h2>
+      <p>En nuestro showroom de Neuquén podés tocar los materiales, abrir los cajones, comparar terminaciones y conocer en persona la calidad de Cucine LUBE. Nuestro equipo te acompaña desde la primera idea hasta la instalación.</p>
+      <ul class="facts">
+        <li><span>Dirección</span>Salta 95, Neuquén Capital</li>
+        <li><span>Región</span>Patagonia argentina</li>
+        <li><span>Visitas</span>Con o sin turno — mejor coordinar por WhatsApp</li>
+      </ul>
+      <a href="#" class="btn btn--dark js-wa" data-msg="Hola! Quiero agendar una visita al showroom.">Agendar visita</a>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="process container" id="proceso">
+    <div class="section-head">
+      <p class="eyebrow">Cómo trabajamos</p>
+      <h2>De la idea a tu cocina</h2>
+    </div>
+    <ol class="steps">
+      <li><span class="steps__n">01</span><h3>Primera charla</h3><p>Nos contás cómo vivís tu cocina, medidas aproximadas y estilo que te gusta.</p></li>
+      <li><span class="steps__n">02</span><h3>Relevamiento</h3><p>Tomamos medidas en obra o trabajamos sobre los planos de tu arquitecto.</p></li>
+      <li><span class="steps__n">03</span><h3>Proyecto 3D</h3><p>Diseñamos tu cocina en 3D y elegimos juntos puertas, encimeras y colores.</p></li>
+      <li><span class="steps__n">04</span><h3>Fabricación en Italia</h3><p>Tu cocina se produce a medida en la fábrica de LUBE en Treia.</p></li>
+      <li><span class="steps__n">05</span><h3>Instalación</h3><p>Montaje profesional y acompañamiento posventa.</p></li>
+    </ol>
+  </section>
+
+  <!-- MADE IN ITALY BAND -->
+  <section class="band" style="background-image:url('img/immagina-det.jpg')">
+    <div class="band__shade"></div>
+    <blockquote class="band__quote">
+      “Llevamos lo mejor del diseño Made in Italy a la Patagonia.”
+      <cite>Cucine LUBE Neuquén</cite>
+    </blockquote>
+  </section>
+
+  <!-- GUIA -->
+  <section class="guide container" id="guia">
+    <div class="section-head">
+      <p class="eyebrow">Guía para la compra</p>
+      <h2>Todo lo que elegís</h2>
+      <p>Cada cocina LUBE se compone eligiendo entre cientos de combinaciones. Te asesoramos en cada decisión.</p>
+    </div>
+    <div class="guide__grid">
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero asesoramiento sobre puertas y terminaciones."><span>01</span>Puertas</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero asesoramiento sobre sistemas de apertura."><span>02</span>Sistemas de apertura</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero asesoramiento sobre encimeras y penínsulas."><span>03</span>Encimeras y penínsulas</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero asesoramiento sobre complementos y luces."><span>04</span>Complementos y luces</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero asesoramiento sobre ergonomía y modularidad."><span>05</span>Ergonomía y modularidad</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero ver la carta de colores."><span>06</span>Colores</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero asesoramiento sobre electrodomésticos y bachas."><span>07</span>Electrodomésticos y bachas</a>
+      <a href="#" class="gitem js-wa" data-msg="Hola! Quiero ver composiciones de cocinas."><span>08</span>Composiciones</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <p class="eyebrow eyebrow--light">Contacto</p>
+        <h2>Empecemos tu proyecto</h2>
+        <p>Completá tus datos y seguimos la conversación por WhatsApp con un asesor del showroom.</p>
+        <ul class="facts facts--light">
+          <li><span>Showroom</span>Salta 95, Neuquén</li>
+          <li><span>Instagram</span><a href="https://www.instagram.com/cucinelube.neuquen/" target="_blank" rel="noopener">@cucinelube.neuquen</a></li>
+          <li><span>WhatsApp</span><a href="#" class="js-wa" data-msg="Hola! Quiero hacer una consulta.">Escribinos</a></li>
+        </ul>
+      </div>
+      <form class="form" id="contactForm" novalidate>
+        <label>Nombre<input name="nombre" required autocomplete="name"></label>
+        <label>Localidad<input name="localidad" placeholder="Neuquén, Cipolletti, Plottier…" autocomplete="address-level2"></label>
+        <label>¿Qué estás buscando?
+          <select name="interes">
+            <option>Cocina nueva para obra</option>
+            <option>Renovar mi cocina</option>
+            <option>Proyecto de arquitecto / estudio</option>
+            <option>Living / Mesas y sillas</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <label>Mensaje<textarea name="mensaje" rows="3" placeholder="Medidas aproximadas, estilo, plazos…"></textarea></label>
+        <button class="btn btn--red btn--full" type="submit">Continuar por WhatsApp</button>
+        <p class="form__note">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="map">
+    <iframe title="Mapa del showroom Cucine LUBE Neuquén" src="https://www.google.com/maps?q=Salta+95,+Neuqu%C3%A9n,+Argentina&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="img/logo-lube.png" alt="Cucine LUBE" width="40" height="40">
+      <p>Cucine LUBE Neuquén<br><small>Showroom oficial · Salta 95, Neuquén, Patagonia</small></p>
+    </div>
+    <nav class="footer__nav">
+      <a href="#cocinas">Cocinas</a>
+      <a href="#showroom">Showroom</a>
+      <a href="#guia">Guía de compra</a>
+      <a href="https://www.cucinelube.it/es" target="_blank" rel="noopener">cucinelube.it</a>
+      <a href="https://www.instagram.com/cucinelube.neuquen/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+  <p class="footer__legal container">© <span id="year"></span> Cucine LUBE Neuquén. Cucine LUBE es una marca de Gruppo LUBE, Treia (MC), Italia.</p>
+</footer>
+
+<!-- ASISTENTE -->
+<button class="assist-fab" id="assistFab" aria-label="Abrir asistente" aria-expanded="false">
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 3C6.5 3 2 6.9 2 11.7c0 2.4 1.1 4.6 3 6.2L4 21l3.9-1.9c1.3.4 2.6.6 4.1.6 5.5 0 10-3.9 10-8.7S17.5 3 12 3Z"/></svg>
+  <span class="assist-fab__badge">1</span>
+</button>
+<section class="assist" id="assist" aria-label="Asistente virtual" hidden>
+  <header class="assist__head">
+    <img src="img/logo-lube.png" alt="" width="34" height="34">
+    <div><strong>Asistente LUBE Neuquén</strong><small>Respuestas al instante · luego seguimos por WhatsApp</small></div>
+    <button class="assist__close" id="assistClose" aria-label="Cerrar asistente">×</button>
+  </header>
+  <div class="assist__log" id="assistLog" aria-live="polite"></div>
+  <div class="assist__chips" id="assistChips"></div>
+  <form class="assist__input" id="assistForm">
+    <input id="assistText" placeholder="Escribí tu consulta…" autocomplete="off" aria-label="Tu consulta">
+    <button type="submit" aria-label="Enviar">➤</button>
+  </form>
+  <a class="assist__wa js-wa" href="#" data-msg="Hola! Quiero hablar con un asesor de Cucine LUBE Neuquén.">Hablar con un asesor por WhatsApp</a>
+</section>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script src="js/planner.js"></script>
+<script src="js/asistente.js"></script>
+</body>
+</html>
