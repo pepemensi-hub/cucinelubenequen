@@ -75,14 +75,17 @@
     <div class="container section-head">
       <p class="eyebrow">Diseñá tu cocina</p>
       <h2 id="plannerTitle">Del plano a tu casa</h2>
-      <p>Así proyectamos cada cocina LUBE: en planta, módulo por módulo, con modelos, terminaciones y equipamiento reales. Probá combinaciones y envianos tu diseño.</p>
+      <p>Así proyectamos cada cocina LUBE: en planta, módulo por módulo, con modelos, terminaciones y equipamiento reales. Mirá distintas variantes o probá tu propia combinación y consultanos.</p>
     </div>
     <div class="container planner__grid">
       <div class="planner__board">
         <div class="planner__sheetbar">
           <span>Proyecto · Casa en Neuquén</span>
-          <span>Planta cocina · Esc. 1:50</span>
-          <button type="button" class="planner__replay" aria-label="Volver a dibujar el plano">↻ Redibujar</button>
+          <span class="planner__variant" aria-live="polite">Variante 01</span>
+          <div class="planner__tools">
+            <button type="button" class="planner__auto">❚❚ Pausar variantes</button>
+            <button type="button" class="planner__replay" aria-label="Volver a dibujar el plano">↻ Redibujar</button>
+          </div>
         </div>
         <svg class="planner__svg" viewBox="0 0 1000 720" role="img" aria-label="Plano en vista cenital de una cocina LUBE con columnas, bacha, lavavajillas, isla con anafe y mesa con sillas"></svg>
         <ol class="planner__legend" aria-label="Composición del proyecto"></ol>
@@ -106,7 +109,7 @@
           <div class="ctl__row" data-ctl="layout"></div>
         </div>
         <div class="planner__summary"></div>
-        <button type="button" class="btn btn--red btn--full planner__send">Enviar mi diseño por WhatsApp</button>
+        <button type="button" class="btn btn--red btn--full planner__send">Enviar consulta por WhatsApp</button>
         <p class="planner__disclaimer">Plano ilustrativo. Cada proyecto se diseña a medida en el showroom.</p>
       </aside>
     </div>

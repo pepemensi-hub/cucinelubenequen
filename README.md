@@ -9,7 +9,7 @@ npm start
 Abrir http://localhost:5500
 
 ## Configurar
-- `js/config.js` → **número de WhatsApp** (obligatorio reemplazar), dirección, firma de mensajes.
+- `js/config.js` → número de WhatsApp (+54 9 299 326-8860), dirección, firma de mensajes.
 - `js/asistente.js` → preguntas frecuentes del asistente (array `FAQ`).
 
 ## Todo deriva a WhatsApp

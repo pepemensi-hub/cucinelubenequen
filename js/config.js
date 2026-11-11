@@ -4,8 +4,7 @@
 window.LUBE_CONFIG = {
   // Número de WhatsApp en formato internacional, sin +, espacios ni guiones.
   // Ejemplo Argentina (Neuquén, 299): 549299XXXXXXX
-  // ⚠️ REEMPLAZAR por el número real del showroom.
-  whatsapp: "5492990000000",
+  whatsapp: "5492993268860", // +54 9 299 326-8860
 
   direccion: "Salta 95, Neuquén Capital",
   instagram: "https://www.instagram.com/cucinelube.neuquen/",
